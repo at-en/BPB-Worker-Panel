@@ -23,7 +23,7 @@ if (!isValidUUID(userID)) {
     throw new Error('uuid is not valid');
 }
 
-export default {
+export 默认 {
     /**
      * @param {import("@cloudflare/workers-types").Request} request
      * @param {{UUID: string, PROXYIP: string, DNS_RESOLVER_URL: string}} env
@@ -2085,7 +2085,7 @@ const renderLoginPage = async () => {
     </head>
     <body>
         <div class="container">
-            <h1>BPB Panel <span style="font-size: smaller;">${panelVersion}</span> 💦</h1>
+            <h1>ATcn 代理 <span style="font-size: smaller;">${panelVersion}</span> 💦</h1>
             <div class="form-container">
                 <h2>User Login</h2>
                 <form id="loginForm">
